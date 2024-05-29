@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+nav{
+    top: 0%;
+    left: 0%;
+    position: sticky;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 100%;
+}
+nav{
+    height: 60px;
+    background-color: aqua;
+}
+
